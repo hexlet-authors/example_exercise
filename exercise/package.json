@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "jest --colors"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "sinon": "3.2.1"
+  }
+}
