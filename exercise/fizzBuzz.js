@@ -1,8 +1,10 @@
 /* eslint no-console: 0 */
 // BEGIN
-const fizzBuzz = () => {
-  for (let i = 1; i <= 100; i += 1) {
-    const output = `${i % 3 === 0 ? 'Fizz' : ''}${i % 5 === 0 ? 'Buzz' : ''}`;
+const fizzBuzz = (begin, end) => {
+  for (let i = begin; i <= end; i += 1) {
+    const maybeFizz = i % 3 === 0 ? 'Fizz' : '';
+    const maybeBuzz = i % 5 === 0 ? 'Buzz' : '';
+    const output = `${maybeFizz}${maybeBuzz}`;
     console.log(output === '' ? i : output);
   }
 };
