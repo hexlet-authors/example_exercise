@@ -1,2 +1,2 @@
 test:
-	npm test
+	npm test -s

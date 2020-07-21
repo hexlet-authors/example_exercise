@@ -1,6 +1,7 @@
 {
+  "type": "module",
   "scripts": {
-    "test": "jest --colors"
+    "test": "npx -n --experimental-vm-modules jest"
   },
   "jest": {
     "testEnvironment": "node"

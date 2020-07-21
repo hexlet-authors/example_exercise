@@ -1,3 +1,3 @@
 FROM hexlet/hexlet-javascript
 
-RUN npm-install sinon 
+RUN npm-install sinon

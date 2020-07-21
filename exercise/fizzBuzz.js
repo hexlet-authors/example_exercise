@@ -1,4 +1,3 @@
-/* eslint no-console: 0 */
 // BEGIN
 const fizzBuzz = (begin, end) => {
   for (let i = begin; i <= end; i += 1) {

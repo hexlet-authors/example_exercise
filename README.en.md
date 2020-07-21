@@ -1,4 +1,4 @@
-### fizzBuzz.js
+## fizzBuzz.js
 
 Write and export as default a function that prints (`console.log`) numbers from `begin` to `end`. But:
 
@@ -9,23 +9,16 @@ Write and export as default a function that prints (`console.log`) numbers from 
 
 The function accepts two parameters (`begin` and `end`). They define the range and are inclusive. If the range is empty (when `begin > end`), the function shouldn't print anything.
 
-#### Example
-
 ```javascript
 fizzBuzz(11, 20);
-```
-
-Output:
-
-```
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
+// 11
+// Fizz
+// 13
+// 14
+// FizzBuzz
+// 16
+// 17
+// Fizz
+// 19
+// Buzz
 ```
