@@ -1,0 +1,9 @@
+---
+
+# clean:
+#   - exercise/file1
+#   - exercise/file2
+
+# remove:
+#   - exercise/file3
+#   - exercise/file4
